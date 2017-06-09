@@ -95,8 +95,7 @@ volatile uint32_t g_ui32GPIOc;
 //*****************************************************************************
 #ifdef DEBUG
 void
-__error__(char *pcFilename, uint32_t ui32Line)
-{
+__error__(char *pcFilename, uint32_t ui32Line){
 }
 #endif
 
@@ -108,8 +107,7 @@ __error__(char *pcFilename, uint32_t ui32Line)
 //
 //*****************************************************************************
 void
-Delay(uint32_t ui32Seconds)
-{
+Delay(uint32_t ui32Seconds){
     //
     // Loop while there are more seconds to wait.
     //
